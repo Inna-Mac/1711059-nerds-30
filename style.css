@@ -1,0 +1,237 @@
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+    text-transform: lowercase;
+    background: #ffffff;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+header {
+    background: #EEEEEE;
+    width: 1440px;
+    height: 545px;
+    }
+a {
+    text-decoration: none;
+      }
+  
+img {
+    max-width: 100%;
+    height: auto;
+    }
+ul {
+    list-style: none;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    background-color: transparent;
+    }
+
+.site-navigation-current a:not([href]) {
+    background-color: #000000;
+  }
+.site-navigation a,
+.user-navigation a {
+    
+  color: #000000;
+}
+.site-navigation a:hover,
+.user-navigation a:hover {
+    color: #FB565A;
+}
+.user-navigation a:focus,
+.site-navigation a:focus {
+    color: #000000;
+    opacity: 0.3;
+}
+.img {
+    position: absolute;
+width: 760px;
+height: 431px;
+left: 537px;
+top: 114px;
+background: url(nerds-index-slide1.png); 
+}
+.project-item-website {
+    text-align: left;
+    }
+.project-item-website h3 {
+text-align: left;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.project-item-app h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.project-item-presentations h3{
+    text-align: left;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+}
+.heading {
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+color: #283136;
+}
+.slogan {
+    font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+align-items: left;
+}
+.subtitle {
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+}
+.orders-item h3 {
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #283136;
+text-transform: uppercase;
+}
+.digit {
+font-weight: bold;
+font-size: 45px;
+line-height: 64px;
+}
+.info img {
+position: absolute;
+width: 360px;
+height: 208px;
+left: 940px;
+top: 1093px;
+background: url(nerds-illustration.png);
+}
+.partners img {
+width: 199px;
+height: 67.82px;
+left: 172px;
+top: 1644px;
+opacity: 0.2;
+}
+.button-1 {
+    position: absolute;
+width: 240px;
+height: 50px;
+background: #FB565A;
+border-radius: 3px;  
+color:#ffffff;
+}
+.button-2 {
+position: absolute;
+width: 160px;
+height: 50px;
+background: #FB565A;
+border-radius: 3px;
+color:#ffffff;
+text-align: center;
+text-transform: uppercase;
+}
+.button-3 {
+position: absolute;
+width: 160px;
+height: 50px;
+left: 540px;
+top: 922px;
+background: #00CA74;
+border-radius: 3px;
+text-transform: uppercase;
+color:#ffffff;
+text-align: center;
+
+}
+.button-4 {
+position: absolute;
+width: 160px;
+height: 50px;
+left: 940px;
+top: 922px;
+background: #EFC849;
+border-radius: 3px;
+text-transform: uppercase;
+color:#ffffff;
+text-align: center;
+}
+.subtitle {
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+align-items: center;
+}
+.modal h2 {
+    font-weight: bold;
+font-size: 45px;
+line-height: 53px;
+}
+.modal {
+    font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+}
+.footer-social h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}
+.footer-social p {
+    font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+.social-button-vk {
+    width: 81px;
+    height: 81px;
+    left: 140px;
+    top: 2327px;
+    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+}
+.social-button-fb {
+    width: 81px;
+    height: 81px;
+    left: 230px;
+    top: 2327px;
+    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+}
+.socil-abutton-insta {
+width: 81px;
+height: 81px;
+left: 320px;
+top: 2327px;
+background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+}
+
+
+/*
+:root {
+  --basic-gray: #EEEEEE;
+  --red: #FB565A;
+  --green: #00CA74;
+  --yellow: #EFC849;
+  --soc-gray: #FFFFFF;
+  --exstra-green: #00CA74;
+
+  --special: #663d15;
+}
+*/
